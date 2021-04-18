@@ -14,9 +14,8 @@ public class Pessoa {
     protected String nome;
     Departamento depart;
     
-    public Pessoa(int id, String nome, Departamento depart) {
+    public Pessoa(int id, Departamento depart) {
         this.id = id;
-        this.nome = nome;
         this.depart = depart;
     }
     

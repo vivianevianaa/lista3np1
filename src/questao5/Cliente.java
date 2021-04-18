@@ -17,7 +17,8 @@ public class Cliente extends Pessoa {
     public List<Venda> venda;
     
     public Cliente(int codigo, String nome) {
-        super(codigo, nome);
+        super(codigo);
+        super.nome = nome;
     }
     
     public void setEmail(String email) {

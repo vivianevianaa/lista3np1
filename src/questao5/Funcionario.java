@@ -17,7 +17,8 @@ public class Funcionario extends Pessoa {
     public List<Venda> venda;
     
     public Funcionario(int codigo, String nome) {
-        super(codigo, nome);
+        super(codigo);
+        super.nome = nome;
     }
     
     public void setSalario(double salario) {

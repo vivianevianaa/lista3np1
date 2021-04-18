@@ -14,9 +14,8 @@ public class Pessoa {
     private final int codigo;
     protected String nome;
     
-    public Pessoa(int codigo, String nome) {
+    public Pessoa(int codigo) {
         this.codigo = codigo;
-        this.nome = nome;
     }
     
     public int getCodigo() {

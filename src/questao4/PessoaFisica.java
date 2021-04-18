@@ -13,7 +13,8 @@ public class PessoaFisica extends Pessoa {
     private String cpf;
     
     public PessoaFisica(int id, String nome, Departamento depart) {
-        super(id, nome, depart);
+        super(id, depart);
+        super.nome = nome;
     }
     
     public String getCpf() {
